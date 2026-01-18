@@ -1,0 +1,35 @@
+{
+  "name": "ai-agents-saas-edition",
+  "version": "1.0.0",
+  "description": "Production patterns for deploying AI agents in multi-tenant SaaS applications",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "demo": "tsx examples/01-versioned-agent/demo.ts",
+    "demo:01": "tsx examples/01-versioned-agent/demo.ts"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "llm",
+    "production",
+    "saas",
+    "versioning"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}

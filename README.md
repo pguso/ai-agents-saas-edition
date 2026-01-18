@@ -132,7 +132,17 @@ git clone https://github.com/pguso/ai-agents-saas-edition
 # Install dependencies
 npm install
 
+# Set up environment variables (optional - for real LLM execution)
+cp .env.example .env
+# Edit .env and add your API key:
+# OPENAI_API_KEY=sk-your-key-here
+# or
+# ANTHROPIC_API_KEY=sk-ant-your-key-here
+
 # Run an example
+npm run demo:01
+
+# Or run from the example directory
 cd examples/01-versioned-agent
 npm run demo
 

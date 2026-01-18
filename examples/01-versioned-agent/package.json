@@ -1,0 +1,10 @@
+{
+  "name": "01-versioned-agent",
+  "version": "1.0.0",
+  "description": "Example: Versioned agent system with routing and rollback",
+  "type": "module",
+  "main": "demo.ts",
+  "scripts": {
+    "demo": "tsx demo.ts"
+  }
+}
