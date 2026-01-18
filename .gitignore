@@ -6,5 +6,5 @@ dist/
 .env.*.local
 .DS_Store
 *.tsbuildinfo
-
+.idea
 IMPL*.md
