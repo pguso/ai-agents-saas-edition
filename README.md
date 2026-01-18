@@ -52,7 +52,7 @@ Each example in this repo corresponds to an in-depth article. Here's the full ro
 → `examples/01-versioned-agent`  
 The moment your proof-of-concept hits production reality. Versioning, rollbacks, and why agents aren't just functions.
 
-**Part 2:** Implementation: Versioned Agents & Guardrails (Comming Soonn)  
+**Part 2:** Implementation: Versioned Agents & Guardrails (Comming Soon)  
 → `examples/02-guardrails`  
 Concrete code for version routing, cost limits, output validation, and safe deployments.
 
