@@ -48,21 +48,21 @@ Each example in this repo corresponds to an in-depth article. Here's the full ro
 
 ### Foundation Series
 
-**Part 1:** [AI Agents in Production: The Lifecycle Problem Nobody Talks About](link)  
+**Part 1:** [AI Agents in Production: The Lifecycle Problem Nobody Talks About](https://pguso.medium.com/ai-agents-in-production-the-lifecycle-problem-nobody-talks-about-61117f3e0fcf)  
 → `examples/01-versioned-agent`  
 The moment your proof-of-concept hits production reality. Versioning, rollbacks, and why agents aren't just functions.
 
-**Part 2:** [Implementation: Versioned Agents & Guardrails](link)  
+**Part 2:** Implementation: Versioned Agents & Guardrails (Comming Soonn)  
 → `examples/02-guardrails`  
 Concrete code for version routing, cost limits, output validation, and safe deployments.
 
-**Part 3:** [Evals & Rollbacks: When Agents Break](link)  
+**Part 3:** Evals & Rollbacks: When Agents Break (Comming Soon)  
 → `examples/03-monitoring`  
 How to know when things go wrong and how to fix them without panicking at 3am.
 
 ### Operations Series
 
-**Part 4:** [The Observability Problem: You Can't Debug What You Can't See](link)  
+**Part 4:** The Observability Problem: You Can't Debug What You Can't See (Comming Soon)  
 → `examples/04-observability`
 - Structured logging for agent traces
 - Building dashboards that matter
@@ -70,7 +70,7 @@ How to know when things go wrong and how to fix them without panicking at 3am.
 - Cost attribution per tenant/feature
 - Real debugging sessions
 
-**Part 5:** [Agent Testing in Production: Unit Tests Don't Work for Probabilistic Systems](link)  
+**Part 5:** Agent Testing in Production: Unit Tests Don't Work for Probabilistic Systems (Comming Soon)  
 → `examples/05-testing`
 - Evals vs. traditional tests
 - Building your eval dataset
@@ -78,7 +78,7 @@ How to know when things go wrong and how to fix them without panicking at 3am.
 - Shadow mode deployments
 - Continuous evaluation pipelines
 
-**Part 6:** [The Multi-Model Strategy: One Model Doesn't Rule Them All](link)  
+**Part 6:** The Multi-Model Strategy: One Model Doesn't Rule Them All (Comming Soon)  
 → `examples/06-multi-model`
 - When to use Haiku vs. Sonnet vs. GPT-4
 - Dynamic model selection
@@ -88,7 +88,7 @@ How to know when things go wrong and how to fix them without panicking at 3am.
 
 ### Advanced Architecture Series
 
-**Part 7:** [Memory & Context Management: Agents That Remember (Without Breaking the Bank)](link)  
+**Part 7:** Memory & Context Management: Agents That Remember (Without Breaking the Bank) (Comming Soon)  
 → `examples/07-memory`
 - Short-term vs. long-term memory
 - RAG for agent context
@@ -96,7 +96,7 @@ How to know when things go wrong and how to fix them without panicking at 3am.
 - When to forget
 - Multi-tenant memory isolation
 
-**Part 8:** [Agent Orchestration: From Single Agent to Agent Teams](link)  
+**Part 8:**  Agent Orchestration: From Single Agent to Agent Teams (Comming Soon)  
 → `examples/08-orchestration`
 - When you need multiple agents
 - Handoff patterns
@@ -104,7 +104,7 @@ How to know when things go wrong and how to fix them without panicking at 3am.
 - Supervisor patterns
 - Avoiding agent chaos
 
-**Part 9:** [The Economics of Agents: Building Agents That Don't Bankrupt You](link)  
+**Part 9:** The Economics of Agents: Building Agents That Don't Bankrupt You (Comming Soon)  
 → `examples/09-economics`
 - Real cost breakdowns
 - Caching strategies that work
@@ -112,7 +112,7 @@ How to know when things go wrong and how to fix them without panicking at 3am.
 - When to invest in fine-tuning
 - ROI calculation for agent features
 
-**Part 10:** [Going Beyond Chat: Agents as Background Workers](link)  
+**Part 10:** Going Beyond Chat: Agents as Background Workers (Comming Soon)  
 → `examples/10-async-agents`
 - Async agent execution
 - Queue-based architectures
@@ -120,7 +120,7 @@ How to know when things go wrong and how to fix them without panicking at 3am.
 - Scheduled agents
 - Event-driven agents
 
-**Start here:** Read [Part 1: The Lifecycle Problem](link) first.
+**Start here:** Read [Part 1: The Lifecycle Problem]([link](https://pguso.medium.com/ai-agents-in-production-the-lifecycle-problem-nobody-talks-about-61117f3e0fcf)) first.
 
 ---
 
@@ -178,16 +178,16 @@ const config = configBuilder
 
 | Example | Concept | Status | Article |
 |---------|---------|--------|---------|
-| `01-versioned-agent` | Version routing & rollback | Available | [Part 1](link) |
-| `02-guardrails` | Cost, quality, safety checks | Available | [Part 2](link) |
-| `03-monitoring` | Structured logging & metrics | Available | [Part 3](link) |
-| `04-observability` | Debugging & dashboards | Coming Soon | [Part 4](link) |
-| `05-testing` | Evals & regression tests | Coming Soon | [Part 5](link) |
-| `06-multi-model` | Dynamic model selection | Coming Soon | [Part 6](link) |
-| `07-memory` | Context & memory management | Coming Soon | [Part 7](link) |
-| `08-orchestration` | Multi-agent systems | Coming Soon | [Part 8](link) |
-| `09-economics` | Cost optimization | Coming Soon | [Part 9](link) |
-| `10-async-agents` | Background processing | Coming Soon | [Part 10](link) |
+| `01-versioned-agent` | Version routing & rollback | Available | [Part 1](https://pguso.medium.com/ai-agents-in-production-the-lifecycle-problem-nobody-talks-about-61117f3e0fcf) |
+| `02-guardrails` | Cost, quality, safety checks | Coming Soon | Part 2 |
+| `03-monitoring` | Structured logging & metrics | Coming Soon | Part 3 |
+| `04-observability` | Debugging & dashboards | Coming Soon | Part 4 |
+| `05-testing` | Evals & regression tests | Coming Soon | Part 5 |
+| `06-multi-model` | Dynamic model selection | Coming Soon | Part 6 |
+| `07-memory` | Context & memory management | Coming Soon | Part 7 |
+| `08-orchestration` | Multi-agent systems | Coming Soon | Part 8 |
+| `09-economics` | Cost optimization | Coming Soon | Part 9 |
+| `10-async-agents` | Background processing | Coming Soon | Part 10 |
 
 ---
 
@@ -197,11 +197,6 @@ const config = configBuilder
 ai-agents-saas-edition/
 │
 ├── README.md                          # You are here
-│
-├── articles/                          # Links to published articles
-│   ├── 01-agent-lifecycle.md
-│   ├── 02-implementation.md
-│   └── ...
 │
 ├── examples/                          # Runnable demonstrations
 │   ├── 01-versioned-agent/
@@ -214,10 +209,6 @@ ai-agents-saas-edition/
 │   ├── agent-executor.ts
 │   └── ...
 │
-├── diagrams/                          # Visual assets from articles
-│   ├── agent-lifecycle.svg
-│   ├── cost-decision-tree.svg
-│   └── ...
 │
 ├── tests/                             # Test examples
 └── docs/                              # Additional documentation
@@ -275,7 +266,7 @@ No heavy frameworks. Patterns over dependencies.
 3. Then come back here for production patterns
 
 **If you've built agents before:**
-1. Read [Part 1: The Lifecycle Problem](link)
+1. Read [Part 1: The Lifecycle Problem](https://pguso.medium.com/ai-agents-in-production-the-lifecycle-problem-nobody-talks-about-61117f3e0fcf)
 2. Run `examples/01-versioned-agent`
 3. Follow the series based on your needs
 
@@ -292,7 +283,7 @@ Please open an issue first for major changes.
 ## Related Work
 
 - [AI Agents from Scratch](https://github.com/pguso/ai-agents-from-scratch) - Learn agent fundamentals
-- [Article Series](https://pguso.medium.com/ai-agents-in-production-the-lifecycle-problem-nobody-talks-about-61117f3e0fcf?postPublishedType=initial) - Deep dives into each pattern
+- [Article Series](https://pguso.medium.com/ai-agents-in-production-the-lifecycle-problem-nobody-talks-about-61117f3e0fcf) - Deep dives into each pattern
 
 ---
 
