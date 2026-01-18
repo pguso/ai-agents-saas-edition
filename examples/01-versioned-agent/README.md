@@ -10,6 +10,10 @@ This example demonstrates the core concepts from **Part 1: The Lifecycle Problem
 4. **Rollback Scenarios** - Quickly rollback users when issues occur
 5. **Multi-Tenant Configuration** - Different tenants can have different defaults
 
+## Documentation
+
+For a detailed step-by-step explanation of the code, see [CODE.md](./CODE.md). It walks through each part of the demo, explaining what each function does and why it matters.
+
 ## Running the Demo
 
 ```bash
